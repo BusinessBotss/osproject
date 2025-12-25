@@ -1,0 +1,760 @@
+<!doctype html>
+<html lang="es" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IA GYM OS - Presentación</title>
+  <script src="/_sdk/element_sdk.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      box-sizing: border-box;
+    }
+    
+    .slide {
+      min-height: 100%;
+      scroll-snap-align: start;
+    }
+    
+    .gradient-text {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .slide-number {
+      position: absolute;
+      bottom: 2rem;
+      right: 2rem;
+      font-size: 0.875rem;
+      opacity: 0.5;
+    }
+  </style>
+  <style>@view-transition { navigation: auto; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full">
+  <div id="app" class="w-full h-full overflow-auto bg-gray-900 text-white"><!-- Slide 1: Title -->
+   <section class="slide flex items-center justify-center p-12 relative">
+    <div class="max-w-4xl text-center">
+     <h1 id="main-title" class="text-5xl md:text-7xl font-bold mb-6 gradient-text">DISEÑO DE UN SISTEMA OPERATIVO PARA GIMNASIOS 24/7 BASADO EN IA</h1>
+     <p id="subtitle" class="text-xl md:text-2xl mb-8 text-gray-300">Comprender las necesidades reales de los usuarios para construir soluciones de IA escalables y multilingües.</p>
+     <p id="author-name" class="text-2xl font-semibold text-purple-400">MARIO GALÁN PÉREZ</p>
+     <p class="text-lg text-gray-400 mt-2">Un sistema de IA desplegado en un entorno real</p>
+    </div>
+    <div class="slide-number">
+     1
+    </div>
+   </section><!-- Slide 2: Visión General -->
+   <section class="slide p-12 relative">
+    <div class="max-w-6xl mx-auto">
+     <h2 class="text-4xl font-bold mb-8 gradient-text">VISIÓN GENERAL DEL PROYECTO</h2>
+     <div class="grid md:grid-cols-2 gap-8">
+      <div>
+       <h3 class="text-3xl font-bold mb-4">SISTEMA OPERATIVO 24/7 PARA GIMNASIOS</h3>
+       <p class="text-lg text-gray-300 mb-6">Un ecosistema digital impulsado por IA, diseñado para un gimnasio real que opera 24 horas en Mallorca.</p>
+       <ul class="space-y-3 text-lg">
+        <li class="flex items-center"><span class="text-purple-400 mr-3">✓</span> <span>Aplicación móvil</span></li>
+        <li class="flex items-center"><span class="text-purple-400 mr-3">✓</span> <span>Chatbot multilingüe con IA</span></li>
+        <li class="flex items-center"><span class="text-purple-400 mr-3">✓</span> <span>Automatización operativa</span></li>
+        <li class="flex items-center"><span class="text-purple-400 mr-3">✓</span> <span>Interacción con usuarios reales</span></li>
+       </ul>
+      </div>
+      <div class="bg-gray-800 rounded-lg p-8 flex items-center justify-center border border-gray-700">
+       <div class="text-center">
+        <svg class="w-48 h-48 mx-auto" viewbox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="80" stroke="#667eea" stroke-width="4" fill="none" /> <circle cx="100" cy="60" r="15" fill="#764ba2" /> <circle cx="140" cy="100" r="15" fill="#667eea" /> <circle cx="100" cy="140" r="15" fill="#8b5cf6" /> <circle cx="60" cy="100" r="15" fill="#a78bfa" /> <line x1="100" y1="75" x2="100" y2="125" stroke="#667eea" stroke-width="2" /> <line x1="75" y1="100" x2="125" y2="100" stroke="#667eea" stroke-width="2" />
+        </svg>
+        <p class="text-gray-400 mt-4 italic">Ecosistema Visual</p>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="slide-number">
+     2
+    </div>
+   </section><!-- Slide 3: Perfil del Autor -->
+   <section class="slide p-12 relative">
+    <div class="max-w-6xl mx-auto">
+     <h2 class="text-4xl font-bold mb-8 gradient-text">PERFIL DEL AUTOR</h2>
+     <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div class="bg-gray-800 rounded-lg p-8 flex items-center justify-center border border-gray-700">
+       <div class="text-center">
+        <div class="w-48 h-48 mx-auto bg-gradient-to-br from-purple-500 to-indigo-600 rounded-full flex items-center justify-center mb-4"><span class="text-6xl font-bold">MG</span>
+        </div>
+        <p class="text-gray-400 italic">Foto de Perfil</p>
+       </div>
+      </div>
+      <div>
+       <h3 class="text-4xl font-bold mb-6">Mario Galán Pérez</h3>
+       <div class="space-y-4 text-lg">
+        <div class="flex items-start"><span class="text-purple-400 font-bold mr-3">📍</span>
+         <div>
+          <p class="font-semibold">Ubicación:</p>
+          <p class="text-gray-300">Mallorca, España</p>
+         </div>
+        </div>
+        <div class="flex items-start"><span class="text-purple-400 font-bold mr-3">🎓</span>
+         <div>
+          <p class="font-semibold">Formación:</p>
+          <p class="text-gray-300">Máster en Inteligencia Artificial</p>
+         </div>
+        </div>
+        <div class="flex items-start"><span class="text-purple-400 font-bold mr-3">💼</span>
+         <div>
+          <p class="font-semibold">Rol:</p>
+          <p class="text-gray-300">Consultor en Automatización</p>
+         </div>
+        </div>
+        <div class="flex items-start"><span class="text-purple-400 font-bold mr-3">🌐</span>
+         <div>
+          <p class="font-semibold">Web:</p>
+          <p class="text-gray-300">businessbots.org</p>
+         </div>
+        </div>
+       </div>
+       <p class="text-gray-400 mt-6 italic">Proyecto desarrollado como Trabajo Fin de Máster con despliegue y usuarios reales.</p>
+      </div>
+     </div>
+    </div>
+    <div class="slide-number">
+     3
+    </div>
+   </section><!-- Slide 4: Contexto -->
+   <section class="slide p-12 relative">
+    <div class="max-w-6xl mx-auto">
+     <h2 class="text-4xl font-bold mb-8 gradient-text">CONTEXTO Y ANTECEDENTES</h2>
+     <h3 class="text-3xl font-bold mb-6">Gym Tónic — Contexto empresarial real</h3>
+     <p class="text-xl text-gray-300 mb-8">Ubicado en Mallorca, con una base de usuarios internacional y multicultural.</p>
+     <div class="grid md:grid-cols-2 gap-8">
+      <div>
+       <h4 class="text-2xl font-bold mb-4 text-red-400">ESTADO PREVIO:</h4>
+       <ul class="space-y-3 text-lg">
+        <li class="flex items-start"><span class="text-red-400 mr-3 mt-1">❌</span> <span>Sin capa digital de comunicación</span></li>
+        <li class="flex items-start"><span class="text-red-400 mr-3 mt-1">❌</span> <span>Sin atención fuera de horario comercial</span></li>
+        <li class="flex items-start"><span class="text-red-400 mr-3 mt-1">❌</span> <span>Sin sistema de reporte de incidencias</span></li>
+        <li class="flex items-start"><span class="text-red-400 mr-3 mt-1">❌</span> <span>Sin soporte multilingüe</span></li>
+       </ul>
+      </div>
+      <div class="bg-gray-800 rounded-lg p-8 flex items-center justify-center border border-gray-700">
+       <div class="text-center">
+        <svg class="w-64 h-48 mx-auto" viewbox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="50" y="20" width="200" height="140" rx="8" fill="#374151" stroke="#667eea" stroke-width="3" /> <rect x="70" y="50" width="50" height="80" rx="4" fill="#4b5563" /> <rect x="180" y="50" width="50" height="80" rx="4" fill="#4b5563" /> <circle cx="150" cy="90" r="25" fill="#667eea" /> <text x="150" y="180" text-anchor="middle" fill="#9ca3af" font-size="14">
+          Fachada Gym Tónic
+         </text>
+        </svg>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="slide-number">
+     4
+    </div>
+   </section><!-- Slide 5: El Problema -->
+   <section class="slide flex items-center justify-center p-12 relative">
+    <div class="max-w-4xl text-center">
+     <h2 class="text-4xl font-bold mb-8 gradient-text">EL PROBLEMA PRINCIPAL</h2>
+     <p class="text-2xl mb-8 text-gray-300">El problema no era el acceso ni los pagos.</p>
+     <p class="text-5xl font-bold mb-12 text-purple-400">El problema real era la Ausencia de una capa digital inteligente.</p>
+     <div class="grid md:grid-cols-2 gap-6 text-left">
+      <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+       <p class="text-xl">• Falta de acompañamiento</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+       <p class="text-xl">• Cero soporte nocturno</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+       <p class="text-xl">• Información no estructurada</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+       <p class="text-xl">• Comunicación no escalable</p>
+      </div>
+     </div>
+    </div>
+    <div class="slide-number">
+     5
+    </div>
+   </section><!-- Slide 6: Usuario -->
+   <section class="slide p-12 relative">
+    <div class="max-w-6xl mx-auto">
+     <h2 class="text-4xl font-bold mb-8 gradient-text">REALIDAD DEL USUARIO (SOCIO)</h2>
+     <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+       <h3 class="text-3xl font-bold mb-6">Perfil del Socio Típico</h3>
+       <p class="text-xl text-gray-300 mb-6">Internacional, habla diferentes idiomas, entrena a cualquier hora y espera inmediatez digital.</p>
+       <blockquote class="text-2xl italic text-purple-400 border-l-4 border-purple-400 pl-6 my-8">
+        "Un sistema estático ya no era suficiente."
+       </blockquote>
+      </div>
+      <div class="bg-gray-800 rounded-lg p-8 border border-gray-700">
+       <div class="space-y-6">
+        <div class="flex items-center justify-between"><span class="text-lg">🌍 Internacional</span>
+         <div class="w-32 h-3 bg-gray-700 rounded-full overflow-hidden">
+          <div class="h-full bg-gradient-to-r from-purple-500 to-indigo-600" style="width: 90%"></div>
+         </div>
+        </div>
+        <div class="flex items-center justify-between"><span class="text-lg">🗣️ Multilingüe</span>
+         <div class="w-32 h-3 bg-gray-700 rounded-full overflow-hidden">
+          <div class="h-full bg-gradient-to-r from-purple-500 to-indigo-600" style="width: 85%"></div>
+         </div>
+        </div>
+        <div class="flex items-center justify-between"><span class="text-lg">🌙 Horario 24/7</span>
+         <div class="w-32 h-3 bg-gray-700 rounded-full overflow-hidden">
+          <div class="h-full bg-gradient-to-r from-purple-500 to-indigo-600" style="width: 95%"></div>
+         </div>
+        </div>
+        <div class="flex items-center justify-between"><span class="text-lg">📱 Digital First</span>
+         <div class="w-32 h-3 bg-gray-700 rounded-full overflow-hidden">
+          <div class="h-full bg-gradient-to-r from-purple-500 to-indigo-600" style="width: 100%"></div>
+         </div>
+        </div>
+       </div>
+       <p class="text-gray-400 text-center mt-6 italic">Mapa de Usuario</p>
+      </div>
+     </div>
+    </div>
+    <div class="slide-number">
+     6
+    </div>
+   </section><!-- Slide 7: Objetivos -->
+   <section class="slide p-12 relative">
+    <div class="max-w-6xl mx-auto">
+     <h2 class="text-4xl font-bold mb-8 gradient-text">OBJETIVOS Y MOTIVACIÓN</h2>
+     <blockquote class="text-3xl font-bold mb-12 text-center text-purple-400">
+      "Construir un sistema de IA que acompañe al usuario incluso cuando no hay personal."
+     </blockquote>
+     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-gray-800 p-6 rounded-lg border-l-4 border-purple-500">
+       <div class="text-3xl font-bold text-purple-400 mb-2">
+        01
+       </div>
+       <p class="text-lg">Atención automatizada 24/7</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg border-l-4 border-indigo-500">
+       <div class="text-3xl font-bold text-indigo-400 mb-2">
+        02
+       </div>
+       <p class="text-lg">Comunicación multilingüe nativa</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg border-l-4 border-violet-500">
+       <div class="text-3xl font-bold text-violet-400 mb-2">
+        03
+       </div>
+       <p class="text-lg">Gestión de incidencias autónoma</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg border-l-4 border-purple-400">
+       <div class="text-3xl font-bold text-purple-300 mb-2">
+        04
+       </div>
+       <p class="text-lg">Mejora de la experiencia sin sustitución</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg border-l-4 border-indigo-400">
+       <div class="text-3xl font-bold text-indigo-300 mb-2">
+        05
+       </div>
+       <p class="text-lg">Arquitectura escalable</p>
+      </div>
+     </div>
+    </div>
+    <div class="slide-number">
+     7
+    </div>
+   </section><!-- Slide 8: Enfoque de Diseño -->
+   <section class="slide flex items-center justify-center p-12 relative">
+    <div class="max-w-5xl w-full">
+     <h2 class="text-4xl font-bold mb-12 text-center gradient-text">ENFOQUE DE DISEÑO</h2>
+     <div class="space-y-8">
+      <div class="bg-gradient-to-r from-purple-900 to-purple-800 p-8 rounded-lg border-2 border-purple-500">
+       <div class="flex items-center justify-between">
+        <div>
+         <div class="text-2xl font-bold text-purple-300 mb-2">
+          CAPA 1
+         </div>
+         <h3 class="text-3xl font-bold mb-2">APP MÓVIL</h3>
+         <p class="text-xl text-gray-300">Interfaz de Usuario</p>
+        </div>
+        <div class="text-6xl">
+         📱
+        </div>
+       </div>
+      </div>
+      <div class="bg-gradient-to-r from-indigo-900 to-indigo-800 p-8 rounded-lg border-2 border-indigo-500">
+       <div class="flex items-center justify-between">
+        <div>
+         <div class="text-2xl font-bold text-indigo-300 mb-2">
+          CAPA 2
+         </div>
+         <h3 class="text-3xl font-bold mb-2">CHATBOT IA</h3>
+         <p class="text-xl text-gray-300">Inteligencia y Automatización</p>
+        </div>
+        <div class="text-6xl">
+         🤖
+        </div>
+       </div>
+      </div>
+      <div class="bg-gradient-to-r from-violet-900 to-violet-800 p-8 rounded-lg border-2 border-violet-500">
+       <div class="flex items-center justify-between">
+        <div>
+         <div class="text-2xl font-bold text-violet-300 mb-2">
+          CAPA 3
+         </div>
+         <h3 class="text-3xl font-bold mb-2">SISTEMAS EXTERNOS</h3>
+         <p class="text-xl text-gray-300">Pagos y Accesos</p>
+        </div>
+        <div class="text-6xl">
+         ⚙️
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="slide-number">
+     8
+    </div>
+   </section><!-- Slide 9: App Móvil -->
+   <section class="slide p-12 relative">
+    <div class="max-w-6xl mx-auto">
+     <h2 class="text-4xl font-bold mb-8 gradient-text">APLICACIÓN MÓVIL (INTERFAZ)</h2>
+     <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-gray-800 rounded-lg p-8 flex items-center justify-center border border-gray-700">
+       <div class="text-center">
+        <div class="w-48 h-80 mx-auto bg-gradient-to-b from-gray-700 to-gray-800 rounded-3xl border-4 border-gray-600 p-4 flex flex-col">
+         <div class="bg-purple-600 h-12 rounded-lg mb-2 flex items-center justify-center text-xs font-bold">
+          GYM OS
+         </div>
+         <div class="bg-gray-600 h-20 rounded-lg mb-2"></div>
+         <div class="bg-gray-600 h-16 rounded-lg mb-2"></div>
+         <div class="bg-gray-600 h-16 rounded-lg mb-2"></div>
+         <div class="flex-1 bg-gray-600 rounded-lg"></div>
+        </div>
+        <p class="text-gray-400 mt-4 italic">Captura GoodBarber App</p>
+       </div>
+      </div>
+      <div class="flex flex-col justify-center">
+       <h3 class="text-2xl font-bold mb-4">Plataforma: GoodBarber</h3>
+       <ul class="space-y-3 text-lg mb-8">
+        <li class="flex items-start"><span class="text-purple-400 mr-3 mt-1">•</span> <span>Información general</span></li>
+        <li class="flex items-start"><span class="text-purple-400 mr-3 mt-1">•</span> <span>Consulta de precios</span></li>
+        <li class="flex items-start"><span class="text-purple-400 mr-3 mt-1">•</span> <span>Contenidos de entrenamiento</span></li>
+        <li class="flex items-start"><span class="text-purple-400 mr-3 mt-1">•</span> <span>Integración con pagos previos</span></li>
+       </ul>
+       <div class="bg-purple-900 bg-opacity-50 p-6 rounded-lg border border-purple-500">
+        <p class="text-lg font-semibold text-purple-300">Decisión técnica clave:</p>
+        <p class="text-gray-300 mt-2">Integrar el sistema ya existente para optimizar recursos.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="slide-number">
+     9
+    </div>
+   </section><!-- Slide 10: Chatbot -->
+   <section class="slide p-12 relative">
+    <div class="max-w-6xl mx-auto">
+     <h2 class="text-4xl font-bold mb-8 gradient-text">SISTEMA DE CHATBOT IA</h2>
+     <div class="grid md:grid-cols-2 gap-8 mb-8">
+      <div>
+       <h3 class="text-2xl font-bold mb-4 text-purple-400">STACK TECNOLÓGICO</h3>
+       <p class="text-xl mb-6">BuilderBot + Chatwoot</p>
+       <h3 class="text-2xl font-bold mb-4 text-purple-400">MODELOS DE LENGUAJE</h3>
+       <ul class="space-y-3 text-lg">
+        <li class="flex items-center"><span class="mr-3">🤖</span> <span><strong>Gemini</strong> (Motor Principal)</span></li>
+        <li class="flex items-center"><span class="mr-3">🤖</span> <span><strong>ChatGPT</strong> (Apoyo en flujos)</span></li>
+       </ul>
+       <blockquote class="text-xl italic text-purple-400 border-l-4 border-purple-400 pl-6 mt-8">
+        "El chatbot actúa como el personal digital del gimnasio."
+       </blockquote>
+      </div>
+      <div class="bg-gray-800 rounded-lg p-8 border border-gray-700">
+       <div class="space-y-4">
+        <div class="bg-gray-700 p-4 rounded-lg">
+         <div class="flex items-start mb-2">
+          <div class="w-8 h-8 rounded-full bg-purple-500 flex items-center justify-center mr-3 flex-shrink-0">
+           👤
+          </div>
+          <div class="bg-gray-600 p-3 rounded-lg flex-1">
+           <p class="text-sm">¿Cuál es el horario del gimnasio?</p>
+          </div>
+         </div>
+        </div>
+        <div class="bg-gray-700 p-4 rounded-lg">
+         <div class="flex items-start mb-2">
+          <div class="w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center mr-3 flex-shrink-0">
+           🤖
+          </div>
+          <div class="bg-indigo-900 p-3 rounded-lg flex-1">
+           <p class="text-sm">Estamos abiertos 24 horas, 7 días a la semana. Puedes acceder en cualquier momento.</p>
+          </div>
+         </div>
+        </div>
+        <div class="bg-gray-700 p-4 rounded-lg">
+         <div class="flex items-start mb-2">
+          <div class="w-8 h-8 rounded-full bg-purple-500 flex items-center justify-center mr-3 flex-shrink-0">
+           👤
+          </div>
+          <div class="bg-gray-600 p-3 rounded-lg flex-1">
+           <p class="text-sm">What are the membership prices?</p>
+          </div>
+         </div>
+        </div>
+        <div class="bg-gray-700 p-4 rounded-lg">
+         <div class="flex items-start mb-2">
+          <div class="w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center mr-3 flex-shrink-0">
+           🤖
+          </div>
+          <div class="bg-indigo-900 p-3 rounded-lg flex-1">
+           <p class="text-sm">We offer monthly memberships from €29.90. Would you like more details?</p>
+          </div>
+         </div>
+        </div>
+       </div>
+       <p class="text-gray-400 text-center mt-4 italic">Captura Chatbot Interfaz</p>
+      </div>
+     </div>
+    </div>
+    <div class="slide-number">
+     10
+    </div>
+   </section><!-- Slide 11: Multilingüe -->
+   <section class="slide flex items-center justify-center p-12 relative">
+    <div class="max-w-6xl w-full">
+     <h2 class="text-4xl font-bold mb-8 text-center gradient-text">EL RETO MULTILINGÜE</h2>
+     <p class="text-2xl text-center mb-12 text-gray-300">Punto crítico en el entorno multicultural de Mallorca.</p>
+     <div class="grid md:grid-cols-2 gap-8 mb-8">
+      <div class="bg-gradient-to-br from-purple-900 to-purple-800 p-8 rounded-lg border-2 border-purple-500">
+       <h3 class="text-3xl font-bold mb-4">Detección Inmediata</h3>
+       <p class="text-xl text-gray-300">Identificación del idioma desde la primera palabra.</p>
+      </div>
+      <div class="bg-gradient-to-br from-indigo-900 to-indigo-800 p-8 rounded-lg border-2 border-indigo-500">
+       <h3 class="text-3xl font-bold mb-4">Consistencia Lingüística</h3>
+       <p class="text-xl text-gray-300">Toda la conversación se mantiene en el idioma detectado.</p>
+      </div>
+     </div>
+     <div class="bg-gray-800 rounded-lg p-8 border border-gray-700">
+      <div class="grid grid-cols-4 gap-4 text-center">
+       <div>
+        <div class="text-4xl mb-2">
+         🇪🇸
+        </div>
+        <p class="font-semibold">Español</p>
+       </div>
+       <div>
+        <div class="text-4xl mb-2">
+         🇬🇧
+        </div>
+        <p class="font-semibold">English</p>
+       </div>
+       <div>
+        <div class="text-4xl mb-2">
+         🇩🇪
+        </div>
+        <p class="font-semibold">Deutsch</p>
+       </div>
+       <div>
+        <div class="text-4xl mb-2">
+         🇫🇷
+        </div>
+        <p class="font-semibold">Français</p>
+       </div>
+      </div>
+      <p class="text-gray-400 text-center mt-6 italic">Captura Chatbot Multiidioma</p>
+     </div>
+    </div>
+    <div class="slide-number">
+     11
+    </div>
+   </section><!-- Slide 12: Incidencias -->
+   <section class="slide p-12 relative">
+    <div class="max-w-6xl mx-auto">
+     <h2 class="text-4xl font-bold mb-8 gradient-text">GESTIÓN DE INCIDENCIAS</h2>
+     <div class="grid md:grid-cols-2 gap-8">
+      <div>
+       <h3 class="text-2xl font-bold mb-6">Automatización completa:</h3>
+       <ul class="space-y-4 text-lg mb-8">
+        <li class="flex items-start bg-gray-800 p-4 rounded-lg border border-green-500"><span class="text-green-400 mr-3 mt-1 text-xl">✅</span> <span>Google Apps Script</span></li>
+        <li class="flex items-start bg-gray-800 p-4 rounded-lg border border-green-500"><span class="text-green-400 mr-3 mt-1 text-xl">✅</span> <span>Registro en Google Sheets</span></li>
+        <li class="flex items-start bg-gray-800 p-4 rounded-lg border border-green-500"><span class="text-green-400 mr-3 mt-1 text-xl">✅</span> <span>Notificación automática</span></li>
+       </ul>
+       <p class="text-xl text-purple-400 font-semibold">Mantenimiento directo y sin intervención humana.</p>
+      </div>
+      <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+       <div class="bg-gray-700 p-4 rounded-lg mb-4">
+        <div class="flex justify-between items-center mb-2 pb-2 border-b border-gray-600"><span class="font-bold text-sm">FECHA</span> <span class="font-bold text-sm">INCIDENCIA</span> <span class="font-bold text-sm">ESTADO</span>
+        </div>
+        <div class="space-y-2 text-sm">
+         <div class="flex justify-between items-center"><span class="text-gray-400">15/05/24</span> <span>Máquina remo</span> <span class="bg-yellow-600 px-2 py-1 rounded text-xs">Pendiente</span>
+         </div>
+         <div class="flex justify-between items-center"><span class="text-gray-400">14/05/24</span> <span>Luz vestuario</span> <span class="bg-green-600 px-2 py-1 rounded text-xs">Resuelta</span>
+         </div>
+         <div class="flex justify-between items-center"><span class="text-gray-400">13/05/24</span> <span>Ducha 3</span> <span class="bg-green-600 px-2 py-1 rounded text-xs">Resuelta</span>
+         </div>
+         <div class="flex justify-between items-center"><span class="text-gray-400">12/05/24</span> <span>Cinta 2</span> <span class="bg-green-600 px-2 py-1 rounded text-xs">Resuelta</span>
+         </div>
+        </div>
+       </div>
+       <p class="text-gray-400 text-center italic">Captura Registro Incidencias</p>
+      </div>
+     </div>
+    </div>
+    <div class="slide-number">
+     12
+    </div>
+   </section><!-- Slide 13: Limitaciones -->
+   <section class="slide p-12 relative">
+    <div class="max-w-6xl mx-auto">
+     <h2 class="text-4xl font-bold mb-8 gradient-text">LIMITACIONES Y EVOLUCIÓN</h2>
+     <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-gray-800 p-8 rounded-lg border-l-4 border-yellow-500">
+       <h3 class="text-3xl font-bold mb-6 text-yellow-400">Estado Actual</h3>
+       <ul class="space-y-3 text-lg">
+        <li class="flex items-start"><span class="text-yellow-400 mr-3 mt-1">•</span> <span>Incidencias descriptivas en texto.</span></li>
+       </ul>
+      </div>
+      <div class="bg-gray-800 p-8 rounded-lg border-l-4 border-green-500">
+       <h3 class="text-3xl font-bold mb-6 text-green-400">Evolución Prevista</h3>
+       <ul class="space-y-3 text-lg">
+        <li class="flex items-start"><span class="text-green-400 mr-3 mt-1">→</span> <span>Numeración de máquinas con QR</span></li>
+        <li class="flex items-start"><span class="text-green-400 mr-3 mt-1">→</span> <span>PDFs de instrucciones por equipo</span></li>
+        <li class="flex items-start"><span class="text-green-400 mr-3 mt-1">→</span> <span>Recomendaciones personalizadas</span></li>
+        <li class="flex items-start"><span class="text-green-400 mr-3 mt-1">→</span> <span>Circuitos y retos específicos</span></li>
+       </ul>
+      </div>
+     </div>
+    </div>
+    <div class="slide-number">
+     13
+    </div>
+   </section><!-- Slide 14: Despliegue -->
+   <section class="slide flex items-center justify-center p-12 relative">
+    <div class="max-w-5xl text-center">
+     <h2 class="text-4xl font-bold mb-8 gradient-text">DESPLIEGUE REAL</h2>
+     <blockquote class="text-4xl font-bold mb-12 text-purple-400">
+      "No es un prototipo. Es un sistema activo."
+     </blockquote>
+     <div class="bg-gray-800 p-12 rounded-lg border-2 border-purple-500 mb-8">
+      <div class="space-y-6 text-left max-w-2xl mx-auto">
+       <div class="flex items-center text-xl"><span class="text-purple-400 font-bold mr-4 w-32">Plataforma:</span> <span>WhatsApp Business</span>
+       </div>
+       <div class="flex items-center text-xl"><span class="text-purple-400 font-bold mr-4 w-32">Nombre:</span> <span>Gin Tonic Bot</span>
+       </div>
+       <div class="flex items-center text-xl"><span class="text-purple-400 font-bold mr-4 w-32">Teléfono:</span> <span class="font-mono">+34 666 75 92 14</span>
+       </div>
+      </div>
+     </div>
+     <p class="text-2xl text-gray-300">Acceso inmediato, sin instalaciones, universal.</p>
+     <div class="mt-8 inline-block">
+      <div class="w-64 h-64 bg-gray-800 rounded-lg border-2 border-purple-500 flex items-center justify-center">
+       <div class="text-center">
+        <svg class="w-32 h-32 mx-auto mb-4" viewbox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="10" width="80" height="80" rx="8" fill="#25D366" stroke="#fff" stroke-width="2" /> <path d="M50 30 L50 55 M50 55 L65 50 M50 55 L35 50" stroke="#fff" stroke-width="4" stroke-linecap="round" /> <circle cx="50" cy="70" r="3" fill="#fff" />
+        </svg>
+        <p class="text-gray-400 italic">WhatsApp QR Code</p>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="slide-number">
+     14
+    </div>
+   </section><!-- Slide 15: Comportamiento -->
+   <section class="slide p-12 relative">
+    <div class="max-w-6xl mx-auto">
+     <h2 class="text-4xl font-bold mb-8 gradient-text">COMPORTAMIENTO DEL USUARIO</h2>
+     <div class="grid md:grid-cols-2 gap-8">
+      <div>
+       <div class="bg-gray-800 p-8 rounded-lg border-l-4 border-purple-500 mb-6">
+        <h3 class="text-3xl font-bold mb-4 text-purple-400">Uso 24/7</h3>
+        <p class="text-xl text-gray-300">Consultas observadas a cualquier hora del día y la noche.</p>
+       </div>
+       <div class="bg-gray-800 p-8 rounded-lg border-l-4 border-indigo-500">
+        <h3 class="text-3xl font-bold mb-4 text-indigo-400">Resolución</h3>
+        <p class="text-xl text-gray-300">Reducción significativa de la carga operativa manual.</p>
+       </div>
+      </div>
+      <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+       <h3 class="text-xl font-bold mb-4 text-center">Horarios de Interacción</h3>
+       <div class="space-y-3">
+        <div>
+         <div class="flex justify-between text-sm mb-1"><span>00:00 - 06:00</span> <span class="text-purple-400">15%</span>
+         </div>
+         <div class="w-full h-4 bg-gray-700 rounded-full overflow-hidden">
+          <div class="h-full bg-gradient-to-r from-purple-500 to-indigo-600" style="width: 15%"></div>
+         </div>
+        </div>
+        <div>
+         <div class="flex justify-between text-sm mb-1"><span>06:00 - 12:00</span> <span class="text-purple-400">35%</span>
+         </div>
+         <div class="w-full h-4 bg-gray-700 rounded-full overflow-hidden">
+          <div class="h-full bg-gradient-to-r from-purple-500 to-indigo-600" style="width: 35%"></div>
+         </div>
+        </div>
+        <div>
+         <div class="flex justify-between text-sm mb-1"><span>12:00 - 18:00</span> <span class="text-purple-400">25%</span>
+         </div>
+         <div class="w-full h-4 bg-gray-700 rounded-full overflow-hidden">
+          <div class="h-full bg-gradient-to-r from-purple-500 to-indigo-600" style="width: 25%"></div>
+         </div>
+        </div>
+        <div>
+         <div class="flex justify-between text-sm mb-1"><span>18:00 - 24:00</span> <span class="text-purple-400">25%</span>
+         </div>
+         <div class="w-full h-4 bg-gray-700 rounded-full overflow-hidden">
+          <div class="h-full bg-gradient-to-r from-purple-500 to-indigo-600" style="width: 25%"></div>
+         </div>
+        </div>
+       </div>
+       <p class="text-gray-400 text-center mt-6 italic">Gráfico de Interacciones</p>
+      </div>
+     </div>
+    </div>
+    <div class="slide-number">
+     15
+    </div>
+   </section><!-- Slide 16: Mapa de Empatía -->
+   <section class="slide p-12 relative">
+    <div class="max-w-6xl mx-auto">
+     <h2 class="text-4xl font-bold mb-8 gradient-text">MAPA DE EMPATÍA</h2>
+     <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-gradient-to-br from-purple-900 to-purple-800 p-6 rounded-lg border-2 border-purple-500">
+       <h3 class="text-2xl font-bold mb-4 text-purple-300">¿QUÉ PIENSA?</h3>
+       <p class="text-lg text-gray-200">"¿Cómo uso esta máquina?", "¿Está abierto ahora?"</p>
+      </div>
+      <div class="bg-gradient-to-br from-indigo-900 to-indigo-800 p-6 rounded-lg border-2 border-indigo-500">
+       <h3 class="text-2xl font-bold mb-4 text-indigo-300">¿QUÉ SIENTE?</h3>
+       <p class="text-lg text-gray-200">Tranquilidad con respuestas rápidas</p>
+      </div>
+      <div class="bg-gradient-to-br from-violet-900 to-violet-800 p-6 rounded-lg border-2 border-violet-500">
+       <h3 class="text-2xl font-bold mb-4 text-violet-300">¿QUÉ VE?</h3>
+       <p class="text-lg text-gray-200">Gimnasio moderno, tecnología accesible, ambiente internacional</p>
+      </div>
+      <div class="bg-gradient-to-br from-purple-900 to-purple-700 p-6 rounded-lg border-2 border-purple-400">
+       <h3 class="text-2xl font-bold mb-4 text-purple-300">¿QUÉ DICE?</h3>
+       <p class="text-lg text-gray-200">"Me responde al instante", "Entiendo todo en mi idioma"</p>
+      </div>
+      <div class="bg-gradient-to-br from-pink-900 to-pink-800 p-6 rounded-lg border-2 border-pink-500">
+       <h3 class="text-2xl font-bold mb-4 text-pink-300">ESFUERZOS</h3>
+       <p class="text-lg text-gray-200">Adaptarse a horarios, entender equipamiento, comunicarse</p>
+      </div>
+      <div class="bg-gradient-to-br from-indigo-900 to-indigo-700 p-6 rounded-lg border-2 border-indigo-400">
+       <h3 class="text-2xl font-bold mb-4 text-indigo-300">RESULTADOS</h3>
+       <p class="text-lg text-gray-200">Experiencia fluida, autonomía completa, confianza digital</p>
+      </div>
+     </div>
+    </div>
+    <div class="slide-number">
+     16
+    </div>
+   </section><!-- Final Slide -->
+   <section class="slide flex items-center justify-center p-12 relative">
+    <div class="max-w-4xl text-center">
+     <h2 class="text-6xl font-bold mb-8 gradient-text">GRACIAS</h2>
+     <div class="space-y-4 text-2xl text-gray-300">
+      <p>MARIO GALÁN PÉREZ</p>
+      <p class="text-purple-400">businessbots.org</p>
+      <p class="text-xl mt-8 text-gray-400">Sistema IA Gym OS • Mallorca, España</p>
+     </div>
+    </div>
+    <div class="slide-number">
+     17
+    </div>
+   </section>
+  </div>
+  <script>
+    const defaultConfig = {
+      main_title: "DISEÑO DE UN SISTEMA OPERATIVO PARA GIMNASIOS 24/7 BASADO EN IA",
+      subtitle: "Comprender las necesidades reales de los usuarios para construir soluciones de IA escalables y multilingües.",
+      author_name: "MARIO GALÁN PÉREZ",
+      background_color: "#111827",
+      surface_color: "#1f2937",
+      text_color: "#ffffff",
+      primary_action: "#8b5cf6",
+      secondary_action: "#667eea"
+    };
+
+    async function onConfigChange(config) {
+      const mainTitle = document.getElementById('main-title');
+      const subtitle = document.getElementById('subtitle');
+      const authorName = document.getElementById('author-name');
+      const app = document.getElementById('app');
+
+      if (mainTitle) {
+        mainTitle.textContent = config.main_title || defaultConfig.main_title;
+      }
+      if (subtitle) {
+        subtitle.textContent = config.subtitle || defaultConfig.subtitle;
+      }
+      if (authorName) {
+        authorName.textContent = config.author_name || defaultConfig.author_name;
+      }
+
+      const backgroundColor = config.background_color || defaultConfig.background_color;
+      const textColor = config.text_color || defaultConfig.text_color;
+
+      if (app) {
+        app.style.backgroundColor = backgroundColor;
+        app.style.color = textColor;
+      }
+    }
+
+    function mapToCapabilities(config) {
+      return {
+        recolorables: [
+          {
+            get: () => config.background_color || defaultConfig.background_color,
+            set: (value) => {
+              config.background_color = value;
+              window.elementSdk.setConfig({ background_color: value });
+            }
+          },
+          {
+            get: () => config.surface_color || defaultConfig.surface_color,
+            set: (value) => {
+              config.surface_color = value;
+              window.elementSdk.setConfig({ surface_color: value });
+            }
+          },
+          {
+            get: () => config.text_color || defaultConfig.text_color,
+            set: (value) => {
+              config.text_color = value;
+              window.elementSdk.setConfig({ text_color: value });
+            }
+          },
+          {
+            get: () => config.primary_action || defaultConfig.primary_action,
+            set: (value) => {
+              config.primary_action = value;
+              window.elementSdk.setConfig({ primary_action: value });
+            }
+          },
+          {
+            get: () => config.secondary_action || defaultConfig.secondary_action,
+            set: (value) => {
+              config.secondary_action = value;
+              window.elementSdk.setConfig({ secondary_action: value });
+            }
+          }
+        ],
+        borderables: [],
+        fontEditable: undefined,
+        fontSizeable: undefined
+      };
+    }
+
+    function mapToEditPanelValues(config) {
+      return new Map([
+        ["main_title", config.main_title || defaultConfig.main_title],
+        ["subtitle", config.subtitle || defaultConfig.subtitle],
+        ["author_name", config.author_name || defaultConfig.author_name]
+      ]);
+    }
+
+    if (window.elementSdk) {
+      window.elementSdk.init({
+        defaultConfig,
+        onConfigChange,
+        mapToCapabilities,
+        mapToEditPanelValues
+      });
+    }
+  </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9b3abc90c2fdcc40',t:'MTc2NjY5MDg1NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
